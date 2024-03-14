@@ -370,12 +370,14 @@ hr {
 
     .tech-desc > h1 {
         margin-top: 100px;
-        font-size: 40px;
+        font-size: 48px;
         font-weight: 800;
+        white-space: nowrap;
     }
 
     .tech-desc > p {
-        font-size: 14px;
+        font-size: 30px;
+        text-align: center;
     }
 
     .tech-images {
