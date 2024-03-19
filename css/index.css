@@ -130,6 +130,8 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-desc {
@@ -349,6 +351,8 @@ hr {
 
     .home-image > img {
         width: 349px;
+        height: 349px;
+        border-radius: 100%;
     }
 
     /*tech stack*/
